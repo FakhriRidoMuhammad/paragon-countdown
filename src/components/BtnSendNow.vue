@@ -1,13 +1,14 @@
 <template>
-    <router-link to="/getupdates" class="btn">
-        <div class="btn-text">
-        Get Updates!
-        </div>
-    </router-link>
+  <div class="btn">
+      <div class="btn-text">
+      Send Now
+      </div>
+  </div>
 </template>
 
 <script>
 export default {
+  name: "BtnSendNow",
 }
 </script>
 

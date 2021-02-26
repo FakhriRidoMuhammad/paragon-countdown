@@ -1,12 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-    </div>
-    <router-view/>
+    <Countdown/>
+    <!-- <TestCD/> -->
   </div>
 </template>
+
+<script>
+import Countdown from '../components/Countdown.vue'
+// import TestCD from './components/TestCD'
+
+export default {
+  name: 'App',
+  components: {
+    Countdown,
+
+    // TestCD
+  }
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
