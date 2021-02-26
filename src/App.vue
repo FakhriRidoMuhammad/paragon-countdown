@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Countdown/>
+    <!-- <TestCD/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Countdown from './components/Countdown.vue'
+// import TestCD from './components/TestCD'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Countdown,
+
+    // TestCD
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+* {
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 </style>
